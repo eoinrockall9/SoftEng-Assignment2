@@ -12,6 +12,7 @@ public class AppTest
     
     DateTime firstDay = new DateTime();
 
+    // Course Objects
 	CourseProgramme course1 = new CourseProgramme("BCT", firstDay, new DateTime());
 	CourseProgramme course2 = new CourseProgramme("BIS", firstDay, new DateTime());
 	CourseProgramme course3 = new CourseProgramme("BA", firstDay, new DateTime());
