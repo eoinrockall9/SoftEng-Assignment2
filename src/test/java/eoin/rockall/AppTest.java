@@ -17,6 +17,7 @@ public class AppTest
 	CourseProgramme course2 = new CourseProgramme("BIS", firstDay, new DateTime());
 	CourseProgramme course3 = new CourseProgramme("BA", firstDay, new DateTime());
 
+	// Module Objects
 	Module module1 = new Module("Programming");
 	Module module2 = new Module("Information Systems");
 	Module module3 = new Module("Spanish");
