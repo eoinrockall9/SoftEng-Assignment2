@@ -105,23 +105,4 @@ public class AppTest
 		assertEquals("BCT", course1.getCourseName());
 	}
 	
-//	@Test
-//	public void getCourseStartDateTest() {
-//		assertEquals(new DateTime(), course1.getStartDate());
-//	}
-//	
-//	@Test
-//	public void getCourseEndDateTest() {
-//		assertEquals(new DateTime(), course1.getStartDate());
-//	}
-	
-//	@Test
-//	public void getCourseModuleListTest() {
-//		
-//	}
-//	
-//	@Test
-//	public void getCourseStudentListTest() {
-//		
-//	}
 }
