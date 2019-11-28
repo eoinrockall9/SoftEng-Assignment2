@@ -1,27 +1,20 @@
 package eoin.rockall;
 
-import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.*;
 import org.junit.Test;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
+import org.joda.time.DateTime;
 
 
 public class AppTest 
 {
     
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
-    
-    //DateTime firstDay = new DateTime();
+    DateTime firstDay = new DateTime();
 
-	CourseProgramme course1 = new CourseProgramme("BCT");//, firstDay, new DateTime());
-	CourseProgramme course2 = new CourseProgramme("BIS");//, firstDay, new DateTime());
-	CourseProgramme course3 = new CourseProgramme("BA");//, firstDay, new DateTime());
+	CourseProgramme course1 = new CourseProgramme("BCT", firstDay, new DateTime());
+	CourseProgramme course2 = new CourseProgramme("BIS", firstDay, new DateTime());
+	CourseProgramme course3 = new CourseProgramme("BA", firstDay, new DateTime());
 
 	Module module1 = new Module("Programming");
 	Module module2 = new Module("Information Systems");

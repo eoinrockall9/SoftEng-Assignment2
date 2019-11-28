@@ -1,21 +1,21 @@
 package eoin.rockall;
 
 import java.util.*;
-// import org.joda.time.DateTime;
+import org.joda.time.DateTime;
 
 public class CourseProgramme {
 
 	String courseName;
 	List<Module> moduleList = new ArrayList<Module>();
 	List<Student> studentList = new ArrayList<Student>();
-//	DateTime startDate = new DateTime();
-//	DateTime endDate = new DateTime();
+	DateTime startDate = new DateTime();
+	DateTime endDate = new DateTime();
 	
-	public CourseProgramme(String courseName) { //, DateTime startDate, DateTime endDate) {
+	public CourseProgramme(String courseName, DateTime startDate, DateTime endDate) {
 		
 		this.courseName = courseName;
-//		this.startDate = startDate;
-//		this.endDate = endDate;
+		this.startDate = startDate;
+		this.endDate = endDate;
 	}
 
 	public String getCourseName() {
@@ -42,19 +42,19 @@ public class CourseProgramme {
 		this.studentList = studentList;
 	}
 
-//	public DateTime getStartDate() {
-//		return startDate;
-//	}
-//
-//	public void setStartDate(DateTime startDate) {
-//		this.startDate = startDate;
-//	}
-//
-//	public DateTime getEndDate() {
-//		return endDate;
-//	}
-//
-//	public void setEndDate(DateTime endDate) {
-//		this.endDate = endDate;
-//	}
+	public DateTime getStartDate() {
+		return startDate;
+	}
+
+	public void setStartDate(DateTime startDate) {
+		this.startDate = startDate;
+	}
+
+	public DateTime getEndDate() {
+		return endDate;
+	}
+
+	public void setEndDate(DateTime endDate) {
+		this.endDate = endDate;
+	}
 }
